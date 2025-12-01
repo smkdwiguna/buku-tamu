@@ -1,0 +1,39 @@
+{
+	"name": "guestbook-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "eslint"
+	},
+	"prisma": {
+		"seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+	},
+	"dependencies": {
+		"@prisma/adapter-better-sqlite3": "^7.0.1",
+		"@prisma/client": "6.19.0",
+		"@types/bcrypt": "^6.0.0",
+		"@types/bootstrap": "^5.2.10",
+		"bcrypt": "^6.0.0",
+		"better-sqlite3": "^12.5.0",
+		"bootstrap": "^5.3.8",
+		"next": "16.0.6",
+		"prisma": "6.19.0",
+		"react": "19.2.0",
+		"react-dom": "19.2.0",
+		"react-webcam": "^7.2.0",
+		"sass": "^1.94.2"
+	},
+	"devDependencies": {
+		"@types/better-sqlite3": "^7.6.13",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "16.0.6",
+		"ts-node": "^10.9.2",
+		"typescript": "^5"
+	}
+}

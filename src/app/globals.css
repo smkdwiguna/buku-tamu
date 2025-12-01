@@ -1,0 +1,78 @@
+/* Global Styles */
+body {
+	font-family: var(--font-figtree), -apple-system, BlinkMacSystemFont,
+		"Segoe UI", "Roboto", sans-serif;
+}
+
+/* Bootstrap Color Customization - Green Primary */
+:root {
+	--bs-primary: #198754;
+	--bs-primary-rgb: 25, 135, 84;
+}
+
+.btn-primary {
+	--bs-btn-bg: #198754;
+	--bs-btn-border-color: #198754;
+	--bs-btn-hover-bg: #157347;
+	--bs-btn-hover-border-color: #146c43;
+	--bs-btn-active-bg: #146c43;
+	--bs-btn-active-border-color: #13653f;
+}
+
+.btn-outline-primary {
+	--bs-btn-color: #198754;
+	--bs-btn-border-color: #198754;
+	--bs-btn-hover-bg: #198754;
+	--bs-btn-hover-border-color: #198754;
+	--bs-btn-active-bg: #198754;
+}
+
+.bg-primary {
+	background-color: #198754 !important;
+}
+
+.text-primary {
+	color: #198754 !important;
+}
+
+.badge.bg-primary {
+	background-color: #198754 !important;
+}
+
+.border-primary {
+	border-color: #198754 !important;
+}
+
+/* Smooth scrolling */
+* {
+	scroll-behavior: smooth;
+}
+
+/* Remove default outline on focus for better custom styling */
+*:focus {
+	outline: none;
+} /* Bootstrap override for better button focus */
+.btn:focus,
+.form-control:focus,
+.form-select:focus {
+	box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
