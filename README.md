@@ -21,7 +21,6 @@ Aplikasi Buku Tamu Sekolah adalah sistem informasi berbasis web yang dirancang u
 - 📢 **Running Text** - Tampilan teks berjalan untuk pengumuman
 - 📊 **Dashboard Statistik** - Overview jumlah tamu (total, hari ini, aktif)
 - ✅ **Check-in/Check-out** - Pencatatan waktu kedatangan dan kepulangan tamu
-- 🎨 **UI Premium** - Desain modern dengan Bootstrap 5 dan font Figtree
 - 📱 **Responsive Design** - Tampilan optimal di berbagai ukuran layar
 
 ## 🛠️ Teknologi yang Digunakan
@@ -58,7 +57,7 @@ Sebelum menginstal aplikasi, pastikan sistem Anda memiliki:
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/smkdwiguna/buku-tamu.git
 cd guestbook-app
 ```
 
